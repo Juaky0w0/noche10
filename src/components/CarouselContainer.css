@@ -1,0 +1,103 @@
+.texts h3{  
+    text-align: center;
+    font-size: 2.1rem;
+}
+p{
+    font-size: 1.3rem;
+    margin: auto;
+}
+.texts{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    margin-bottom: -60px;
+}
+.boton-personalizado-4 {    
+    font-size: 0.8rem;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:40px;
+    padding-right:40px;
+    border-radius:35px;
+    margin-bottom: 100px;
+    border:none; 
+    }
+    .boton-personalizado-4:hover{
+        background-color: #ffdd40;
+    }
+    .boton-personalizado-4 a:hover{
+        color:#333333;
+    }
+
+    .boton-personalizado-4 a{
+        text-decoration: none;
+        font-weight: bold;
+        color:#333333;
+    }
+    
+    /*Desktop*/
+    @media screen and (max-width:  1408px) {
+        .texts{
+
+            height: 180px;
+            margin-bottom: -60px;
+        }
+        .boton-personalizado-4 {    
+            margin-bottom: 80px;
+            }
+      }
+       /*tableta*/
+       @media screen and (max-width:  1024px) {
+        .texts{
+            height: 160px;
+            margin-bottom: -50px;
+        }
+        .boton-personalizado-4 {    
+
+            margin-bottom: 30px;
+
+            }
+      }
+      /*tableta horizontal*/
+      @media screen and (max-width:  768px) {
+        .texts{
+            height: 140px;
+            margin-bottom: -50px;
+        }
+        .boton-personalizado-4 {    
+            font-size: 0.6rem;
+            padding-top:7px;
+            padding-bottom:7px;
+            padding-left:30px;
+            padding-right:30px;
+            margin-bottom: 20px;
+            }
+            .texts h3{  
+                font-size: 1.5rem;
+            }
+            p{
+                font-size: 1rem;
+            }
+      }
+       /*tableta horizontal*/
+       @media screen and (max-width:  600px) {
+        .texts{
+            height: 120px;
+            margin-bottom: -50px;
+        }
+        .boton-personalizado-4 {    
+            font-size: 0.6rem;
+            padding-top:5px;
+            padding-bottom:5px;
+            padding-left:25px;
+            padding-right:25px;
+            margin-bottom: 10px;
+            }
+            .texts h3{  
+                font-size: 1.1rem;
+            }
+            p{
+                font-size: 0.8rem;
+            }
+      }

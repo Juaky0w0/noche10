@@ -1,0 +1,33 @@
+
+.homes h3{  
+    text-align: center;
+    margin: 20px;
+}
+.homes{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 170px;
+}
+.boton-personalizado-home {    
+    font-size: 0.8rem;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:40px;
+    padding-right:40px;
+    border-radius:35px;
+    border:none; 
+    }
+    .boton-personalizado-home:hover{
+        background-color: #ffdd40;
+    }
+    .boton-personalizado-home a:hover{
+        color:#333333;
+    }
+
+    .boton-personalizado-home a{
+        text-decoration: none;
+        font-weight: bold;
+        color:#333333;
+    }
+   
